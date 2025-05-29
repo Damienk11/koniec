@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-bot-monitor",
+  "version": "1.0.0",
+  "description": "A Node.js bot that monitors Minecraft server players and sends notifications to Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["minecraft", "bot", "discord", "monitor"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "^4.25.0",
+    "discord.js": "^14.14.1"
+  }
+}
